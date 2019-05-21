@@ -4,7 +4,7 @@
    - 신경덕 (Team leader)  
    - 성봉진
    - 이지원
-   - 조혜원 test 
+   - 조혜원 test2 
    - 정재홍
 test
 
