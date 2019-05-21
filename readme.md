@@ -2,7 +2,7 @@
 ## Team name : L2 <br>
 **1. Team member**
    - 신경덕 (Team leader)  
-   - 성봉진
+   - 성봉진 .
    - 이지원
    - 조혜원 (test)
    - 정재홍
