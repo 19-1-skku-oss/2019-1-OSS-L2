@@ -49,3 +49,4 @@ void Union_set(int *parent, int x, int y)
 		parent[y] = x;
 	}
 }
+
