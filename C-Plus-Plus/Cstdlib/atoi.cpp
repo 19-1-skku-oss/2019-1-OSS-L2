@@ -17,3 +17,4 @@ int main()
 	cout << atoi(input) << endl;
 	return 0;
 }
+
