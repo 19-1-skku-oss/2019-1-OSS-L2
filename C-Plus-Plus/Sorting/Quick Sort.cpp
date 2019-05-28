@@ -1,5 +1,6 @@
 /* C implementation QuickSort */
 #include<iostream>
+#include<cstdio>
 using namespace std;
  
 int partition (int arr[], int low, int high)
