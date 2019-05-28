@@ -1,3 +1,4 @@
+//Astar example(8 puzzle )
 #include<iostream>
 #include<algorithm>
 #include<stdio.h>
