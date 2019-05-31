@@ -2,15 +2,14 @@
 ## Team name : L2 <br>
 **1. Team member**
    - 신경덕 (Team leader)  
-   - 성봉진 .
+   - 성봉진 
    - 이지원
-   - 조혜원 (test)
+   - 조혜원
    - 정재홍
-test
 
 **2. What is our Team Project** <br>
       [The Algorithm(C-Plus-Plus)](https://github.com/TheAlgorithms/C-Plus-Plus)
-
+      !Algo(C:\Users\Administrator\Desktop\algo.png)
 
 **3. What can we do for our Project** <br>
 - *__As a team__* : After investigating Open Source we found that many algorithms, data structures and functions are not properly working. <br>
