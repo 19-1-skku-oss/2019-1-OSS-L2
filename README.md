@@ -1,11 +1,11 @@
 # Introduce our team
 ## Team name : L2 <br>
 **1. Team member**
-   - 신경덕\t소프트웨어학과 3학년\t (Team leader)  
-   - 성봉진\t글로벌경영학과 3학년 
-   - [이지원](https://github.com/ljw322/MyPage) \t소프트웨어학과3학년
-   - 조혜원\t소프트웨어학과3학년
-   - 정재홍\t수학과 4학년
+   - 신경덕 소프트웨어학과 3학년 (Team leader)  
+   - 성봉진 글로벌경영학과 3학년 
+   - [이지원](https://github.com/ljw322/MyPage) 소프트웨어학과3학년
+   - 조혜원 소프트웨어학과3학년
+   - 정재홍 수학과 4학년
 
 **2. What is our Team Project** <br>
       [The Algorithm(C-Plus-Plus)](https://github.com/TheAlgorithms/C-Plus-Plus)
