@@ -82,3 +82,11 @@ int main() {
 }
 
 //reference: https://rebas.kr/797 [PROJECT REBAS]
+//the result should be
+//Size: 5
+//Pop Back: 5->4->1->2->7->
+//Pop Front: 7->2->1->4->5->
+//MAX : max size of dequeue. it can reschedule the max size when change the value.
+//Data: the array of elements dequeue.
+//index_front: the value of front element
+//index_back: the value of back element
