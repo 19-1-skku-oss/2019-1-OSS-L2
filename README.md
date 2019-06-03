@@ -3,7 +3,7 @@
 **1. Team member**
    - 신경덕 (Team leader)  
    - 성봉진 
-   - 이지원
+   - [이지원](https://github.com/ljw322/MyPage) 소프트웨어학과
    - 조혜원
    - 정재홍
 
