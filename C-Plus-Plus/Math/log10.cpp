@@ -1,6 +1,7 @@
 #include <cstdio>
 #include <iostream>
 using namespace std;
+
 double log10(double);
 double ln(double);
 #define LN10 2.3025850929940456840179914546844
