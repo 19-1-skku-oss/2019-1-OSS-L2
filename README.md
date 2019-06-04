@@ -8,7 +8,7 @@
    - [정재홍](https://github.com/0322-hong) 수학과 4학년
 
 **2. What is our Team Project** <br>
-<img width="58" alt="캡처" src="https://user-images.githubusercontent.com/28394879/58865743-11c76a80-86f2-11e9-9e6b-c7ef2c03bf56.PNG">
+<img width="200" height="200" alt="캡처" src="https://user-images.githubusercontent.com/28394879/58865743-11c76a80-86f2-11e9-9e6b-c7ef2c03bf56.PNG">
 <br>
       [The Algorithm(C-Plus-Plus)](https://github.com/TheAlgorithms/C-Plus-Plus)
     
