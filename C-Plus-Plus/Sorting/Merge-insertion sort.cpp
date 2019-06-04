@@ -87,5 +87,4 @@ int main()
 
    delete[] _array;
    return 0;
-   return 0;
 }
