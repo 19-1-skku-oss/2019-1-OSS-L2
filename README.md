@@ -1,7 +1,7 @@
 # Introduce our team
 ## Team name : L2 <br>
 **1. Team member**
-   - 신경덕 소프트웨어학과 3학년 (Team leader)  
+   - [신경덕](https://github.com/sinkyoungdeok) 소프트웨어학과 3학년 (Team leader)
    - 성봉진 글로벌경영학과 3학년 
    - [이지원](https://github.com/ljw322/MyPage) 소프트웨어학과3학년
    - 조혜원 소프트웨어학과3학년
