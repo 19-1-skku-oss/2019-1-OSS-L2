@@ -1,14 +1,27 @@
 /* cos func */
 #include <iostream>
-#include <cmath>
-
-#define PI 3.14159265
 using namespace std;
 
-int main(int argc, char** argv){
-	double param, result;
-	param = 60.0;
-	result = cos( (param)*PI/180.0);
-	cout<<"The cosine of "<<param<<" is "<< result<<" degrees.\n"<<endl;
-	return 0;	
+const double PI = 3.14159265
+
+double cos(double x) {
+	if (x < 0) x = -x;
+	if (x > 360) x -= int(x / 360) * 360;
+	x *= PI / 180.0;
+	double res = 0;
+	double term = 1;
+	int k = 0;
+	while (res + term != res) {
+		res += term;
+		k += 2;
+		term *= -x * x / k / (k - 1);
+	}
+	return res;
+}
+
+int main() {
+	double c = cos(1231);
+	cout << "cos(1231) = " << c << endl;
+
+	return 0;
 }
