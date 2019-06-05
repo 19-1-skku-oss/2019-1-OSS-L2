@@ -1,3 +1,4 @@
+//tanhx = sinhx/coshx
 #include <iostream>
 using namespace std;
 const double E = 2.71828;
