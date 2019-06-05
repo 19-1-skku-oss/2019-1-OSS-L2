@@ -29,7 +29,7 @@ public:
    Tree(T data = 0) {
       root = new TreeNode<T>(data);
    }
-   // Tree 만들기
+   // Make Tree
    /*
             A
          B        C
@@ -49,7 +49,7 @@ public:
       cout << current->data << " ";
    }
 
-   // 전위 순회 Current - Left - Right
+   //CLR Current - Left - Right
    void preorder(TreeNode<T>* current) {
       if (current != null) {
          visit(current);
@@ -58,7 +58,7 @@ public:
       }
    }
 
-   // 중위 순회 Left - Current - Right
+   //LCR Left - Current - Right
    void inorder(TreeNode<T>* current) {
       if (current != null) {
          inorder(current->left);
@@ -67,7 +67,7 @@ public:
       }
    }
 
-   // 후위 순회 Left - Right - Current
+   // LRC Left - Right - Current
    void postorder(TreeNode<T>* current) {
       if (current != null) {
          postorder(current->left);
