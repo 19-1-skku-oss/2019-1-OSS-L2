@@ -1,4 +1,4 @@
-/* acos func*/
+/* e pow x func*/
 #include <iostream>
 
 using namespace std;
