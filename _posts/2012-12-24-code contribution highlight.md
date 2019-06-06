@@ -17,22 +17,22 @@ quick sort_pivot_is_median : add int medianOfThree(int *d, int low, int high)<br
 Graph - Floyd, sollin, BFS <br><br>
 Floyd : add void Floyd(int **dist,int n) <br>
 sollin : add void prims(int *a, int b[][7], int i, int j)<br>
-
+<br><br>
 Algorithm <br><br>
 max, min : add int min(int input1, int input2) int max(int input1, int input2)<br>
 swap : add void swap(int *x, int *y)<br>
-
+<br><br>
 math<br><br>
 ceil : double ceil(double input)  <br>
 Cstring<br><br>
 strcpy : add char *strcpy(char *dest, char *source) <br>
-others - fibonacci_iteration_version <br>
 
+<br><br>
 cstdlib -<br><br>
 abs : add int abs(int input)<br>
 atoi : add int atoi(char *input)<br>
 atol : long atoi(char *input)
-
+<br><br>
 - honggildong98 <br>
 Backtracking<br><br>
 knight_travel : add knight_travel <br>
