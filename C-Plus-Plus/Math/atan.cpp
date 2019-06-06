@@ -1,14 +1,29 @@
 /* atan func */
 #include <iostream>
-#include <cmath>
 
-#define PI 3.14159265
 using namespace std;
+#define PI 3.141592653589793238462643383279502884197169
 
-int main(int argc, char** argv){
-	double param, result;
-	param = 1.0;
-	result = atan (param)*180.0/PI;
-	cout<<"The arc tangent of "<<param<<" is "<< result<<" degrees.\n"<<endl;
-	return 0;	
+double atan(double x)
+{
+	double val;
+	if (x < 0) {
+		val = -(x - (x*x*x) / 3 + (x*x*x*x*x) / 5 - (x*x*x*x*x*x*x) / 7);
+	}
+	else if (x > 1) {
+		val = PI / 2 - atan(1 / x);
+		
+	}
+	else {
+		val = x - (x*x*x) / 3 + (x*x*x*x*x) / 5 - (x*x*x*x*x*x*x) / 7;
+	}
+	return val;
+}
+
+int main(int argc,char**argv)
+{
+	double param,result;
+	param = 0.5;
+	result = atan(param);
+	cout<< "atan of "<<param<<" is "<<result<<endl;
 }
