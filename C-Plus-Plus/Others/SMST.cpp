@@ -44,13 +44,11 @@ public:
 			Wkey_info.push_back(make_pair(c, make_pair(a, b)));
 			Wdata[a][b] = c;
 			Wdata[b][a] = c;
-			//cout <<"ÀÔ·Â a"<<a<<" b "<<b<<" c "<<c <<" wdata "<< Wdata[a][b] << endl;
+			//cout <<"ì…ë ¥ a"<<a<<" b "<<b<<" c "<<c <<" wdata "<< Wdata[a][b] << endl;
 		}
 		fclose(fp);
 		sort(Wkey_info.begin(), Wkey_info.end());
-		//cout << Wkey_info[0].first << " " << Wkey_info[0].second.first << " " << Wkey_info[0].second.second << endl;
-		//cout << Wkey_info[1].first << " " << Wkey_info[1].second.first << " " << Wkey_info[1].second.second << endl;
-		//cout << Wkey_info[2].first << " " << Wkey_info[2].second.first << " " << Wkey_info[2].second.second << endl;
+		
 	}
 	void union_set(pair<int, pair<int,int>> arg)
 	{
@@ -65,25 +63,25 @@ public:
 		}
 		else
 		{
-			//cout << "N they are in different set" << endl;
+			
 			int h1 = height_info[root1];
 			int h2 = height_info[root2];
-			if (h1 > h2)		//arg2¸¦ 1¿¡ ÇÕ¼º
+			if (h1 > h2)		//arg2ë¥¼ 1ì— í•©ì„±
 			{
 				parent_info[root2] = root1;
 				
 			}
-			else if (h1 < h2)	//arg1À» 2¿¡ ÇÕ¼º
+			else if (h1 < h2)	//arg1ì„ 2ì— í•©ì„±
 			{
 				parent_info[root1] = root2;
 			}
-			else				//arg2¸¦ 1¿¡ ÇÕ¼ºÇÏ°í h++
+			else				//arg2ë¥¼ 1ì— í•©ì„±í•˜ê³  h++
 			{
 				parent_info[root2] = root1;
 				height_info[root1] += 1;
 			}
 			make_parent_child(arg.second.first, arg.second.second);
-			//MST_parent_info[arg.second.second] = arg.second.first;
+			
 			total_weight += arg.first;
 		}
 	}
@@ -91,11 +89,11 @@ public:
 	{
 		int p1 = MST_parent_info[arg1];
 		int p2 = MST_parent_info[arg2];
-		if (p1 == arg1 && p2==arg2)		//µÑ´Ù ºÎ¸ğnode °¡ ¾øÀ» °æ¿ì
+		if (p1 == arg1 && p2==arg2)		//ë‘˜ë‹¤ ë¶€ëª¨node ê°€ ì—†ì„ ê²½ìš°
 			MST_parent_info[arg2] = arg1;
-		else if (p1 != arg1 && p2 == arg2)	//arg1ÀÌ ºÎ¸ğnode°¡ ÀÖÀ» °æ¿ì
+		else if (p1 != arg1 && p2 == arg2)	//arg1ì´ ë¶€ëª¨nodeê°€ ìˆì„ ê²½ìš°
 			MST_parent_info[arg2] = arg1;
-		else if (p1 == arg1 && p2 != arg2)	//arg2ÀÌ ºÎ¸ğnode°¡ ÀÖÀ» °æ¿ì
+		else if (p1 == arg1 && p2 != arg2)	//arg2ì´ ë¶€ëª¨nodeê°€ ìˆì„ ê²½ìš°
 			MST_parent_info[arg1] = arg2;
 	}
 	int find_set(int arg)
@@ -105,7 +103,6 @@ public:
 		while (1)
 		{
 			parent = parent_info[child];
-			//cout << "child " << child << " parent " << parent << endl;
 			if (parent == child)		//root node
 				break;
 			child = parent;
@@ -126,21 +123,17 @@ public:
 	{
 		int arg1,arg2;
 		int val;
-		//cout << "ÀÔ·Â a" << 3 << " b " << 4 << " c " << 3 << " wdata " << Wdata[3][4] << endl;
+		
 		for (int i = 0; i < waste.size(); i++)
 		{
 			arg1 = waste[i].second.first;
 			arg2 = waste[i].second.second;
-			//cout<<"waste arg1 " << arg1 << " waste arg2 " << arg2 << " weight " << waste[i].first << endl;
-			//Edge.push_back();
-			//Edge.push_back(make_pair(0, arg2));
+			
 			LCommonA(arg1, arg2);
-			//cout << "Edge[0] " << Edge[0].first << " " << Edge[0].second << endl;
-			//cout << "Edge[1] " << Edge[1].first << " " << Edge[1].second << endl;
+			
 			int max = *max_element(Edge.begin(), Edge.end());
 			val = waste[i].first -  max;
-			//cout << " max " << max << endl;
-			//cout << "Vals " << val<<endl;
+			
 			if (val>0)
 				Edges.push_back(make_pair(val, make_pair(arg1, arg2)));
 			Edge.clear();
@@ -149,17 +142,17 @@ public:
 		if (Edges.size() != 0)
 			total_weight += Edges[0].first;
 
-		//last °ËÁõ
+		//last ê²€ì¦
 		if (mstW < total_weight)
 			TF = 1;
 		else if (mstW >= total_weight)
 			TF = 0;
-		//cout << Edges[0].first << " " << Edges[0].second.first << " " << Edges[0].second.second << endl;
+		
 	}
 	
 	void LCommonA(int arg1,int arg2)
 	{
-		//cout<<"LCA ÁøÀÔ arg1 " << arg1 << " arg2 " << arg2 << endl;
+		//cout<<"LCA ì§„ì… arg1 " << arg1 << " arg2 " << arg2 << endl;
 		int d1 = find_depth(arg1);
 		int d2 = find_depth(arg2);
 		int child,parent;
@@ -172,9 +165,9 @@ public:
 			{
 				parent = MST_parent_info[child];
 				weight = Wdata[child][parent];
-				//cout << "¹®Á¦? " << weight << endl;
+				
 				Edge.push_back(weight);
-				//cout <<"child "<< child << " parent " << parent << " weight " << weight << endl;
+				
 				child = parent;
 			}
 			arg1 = child;
@@ -188,14 +181,14 @@ public:
 				parent = MST_parent_info[child];
 				weight = Wdata[child][parent];
 				Edge.push_back(weight);
-				//cout << "child " << child << " parent " << parent << " weight " << weight << endl;
+				
 				child = parent;
 			}
 			arg2 = child;
 		}
 		while (1)
 		{
-			//cout <<"while ¹® ¾È¿¡¼­"<< arg1 << "arg1 " << arg2 << "arg2 " << endl;
+			
 			if (arg1 == arg2)
 				break;
 			else
@@ -203,12 +196,12 @@ public:
 				parent = MST_parent_info[arg1];
 				weight = Wdata[arg1][parent];
 				Edge.push_back(weight);
-				//cout << arg1 << " " << parent << " " << weight << endl;
+				
 				arg1 = parent;
 				parent = MST_parent_info[arg2];
 				weight = Wdata[arg2][parent];
 				Edge.push_back(weight);
-				//cout << arg2 << " " << parent << " " << weight << endl;
+				
 				arg2 = parent;
 			}
 		}
@@ -231,14 +224,14 @@ public:
 	}
 	void write(const char * fname)
 	{
-		//cout << mstW << " " << total_weight << endl;
+		
 		FILE * fp = fopen(fname, "w");
 		if (TF==1)
 			fprintf(fp, "%d",total_weight);
 		else if(TF==0)
 			fprintf(fp, "%d", -1);
 		fclose(fp);
-		//cout << total_weight << endl;
+		
 	}
 };
 
