@@ -31,3 +31,17 @@ layout: nil
   > Data Structure need list 이슈추가<br>
   > 개인 별 필요 함수 구현<br>
 <br>
+
+### 6월
+* 6월 둘째 주
+  > 이슈별 라벨 공지<br>
+  > math.h 헤더 이용 유의 공지<br>
+  > Backtracking need list 이슈추가<br>
+  > 개인 별 필요 함수 구현<br>
+  > 선정 프로젝트에 pull request 요청<br>
+
+* 6월 셋째 주
+  > 개인 별 필요 함수 구현<br>
+  > 선정프로젝트에 pull request 요청<br>
+  > 팀 발표<br>
+
