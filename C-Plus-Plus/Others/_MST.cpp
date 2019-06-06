@@ -34,9 +34,7 @@ public:
 		}
 		fclose(fp);
 		sort(info.begin(), info.end());
-		//cout << info[0].first << " " << info[0].second.first << " " << info[0].second.second << endl;
-		//cout << info[1].first << " " << info[1].second.first << " " << info[1].second.second << endl;
-		//cout << info[2].first << " " << info[2].second.first << " " << info[2].second.second << endl;
+		
 	}
 	void union_set(pair<int, pair<int,int>> arg)
 	{
@@ -45,23 +43,23 @@ public:
 		int root2 = find_set(arg.second.second);
 		if (root1 == root2)
 		{
-			//cout << "Y they are in the same set" << endl;
+			
 			return;
 		}
 		else
 		{
-			//cout << "N they are in different set" << endl;
+			
 			int h1 = height_info[root1];
 			int h2 = height_info[root2];
-			if (h1 > h2)		//arg2∏¶ 1ø° «’º∫
+			if (h1 > h2)		//arg2Î•º 1Ïóê Ìï©ÏÑ±
 			{
 				parent_info[root2] = root1;
 			}
-			else if (h1 < h2)	//arg1¿ª 2ø° «’º∫
+			else if (h1 < h2)	//arg1ÏùÑ 2Ïóê Ìï©ÏÑ±
 			{
 				parent_info[root1] = root2;
 			}
-			else				//arg2∏¶ 1ø° «’º∫«œ∞Ì h++
+			else				//arg2Î•º 1Ïóê Ìï©ÏÑ±ÌïòÍ≥† h++
 			{
 				parent_info[root2] = root1;
 				height_info[root1] += 1;
@@ -96,7 +94,7 @@ public:
 		FILE * fp = fopen(fname, "w");
 		fprintf(fp, "%d",total_weight);
 		fclose(fp);
-		//cout << total_weight << endl;
+		
 	}
 };
 
