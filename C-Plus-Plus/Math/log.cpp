@@ -1,4 +1,3 @@
-/* acos func*/
 #include <iostream>
 
 using namespace std;
