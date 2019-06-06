@@ -9,7 +9,7 @@ layout: nil
 
 5/28
 ---
-- sinkyoungdeok  <br>
+sinkyoungdeok  <br>
 sort <br><br>
 quick sort_plus_insertion sort : add void InsertionSort(int *A, int n) in quick_sort<br>
 quick sort_pivot_is_median : add int medianOfThree(int *d, int low, int high)<br>
