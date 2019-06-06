@@ -44,7 +44,7 @@ public:
 			Wkey_info.push_back(make_pair(c, make_pair(a, b)));
 			Wdata[a][b] = c;
 			Wdata[b][a] = c;
-			//cout <<"입력 a"<<a<<" b "<<b<<" c "<<c <<" wdata "<< Wdata[a][b] << endl;
+			
 		}
 		fclose(fp);
 		sort(Wkey_info.begin(), Wkey_info.end());
@@ -52,10 +52,10 @@ public:
 	}
 	void union_set(pair<int, pair<int,int>> arg)
 	{
-		//cout << "first arg " << arg.second.first << endl;
-		int root1 = find_set(arg.second.first);
-		//cout << "second arg " << arg.second.second << endl;
-		int root2 = find_set(arg.second.second);
+		
+		int root1 = find_set(arg.second.first);		//first argv
+		
+		int root2 = find_set(arg.second.second);	//second argv
 		if (root1 == root2)
 		{
 			waste.push_back(arg);
@@ -66,16 +66,16 @@ public:
 			
 			int h1 = height_info[root1];
 			int h2 = height_info[root2];
-			if (h1 > h2)		//arg2를 1에 합성
+			if (h1 > h2)		//merge arg2 to 1
 			{
 				parent_info[root2] = root1;
 				
 			}
-			else if (h1 < h2)	//arg1을 2에 합성
+			else if (h1 < h2)	//merge arg1 to 2
 			{
 				parent_info[root1] = root2;
 			}
-			else				//arg2를 1에 합성하고 h++
+			else				//merge arg2 to 1 and height++
 			{
 				parent_info[root2] = root1;
 				height_info[root1] += 1;
@@ -89,11 +89,11 @@ public:
 	{
 		int p1 = MST_parent_info[arg1];
 		int p2 = MST_parent_info[arg2];
-		if (p1 == arg1 && p2==arg2)		//둘다 부모node 가 없을 경우
+		if (p1 == arg1 && p2==arg2)		//when both two does not have parent node
 			MST_parent_info[arg2] = arg1;
-		else if (p1 != arg1 && p2 == arg2)	//arg1이 부모node가 있을 경우
+		else if (p1 != arg1 && p2 == arg2)	//when arg1 has parent node
 			MST_parent_info[arg2] = arg1;
-		else if (p1 == arg1 && p2 != arg2)	//arg2이 부모node가 있을 경우
+		else if (p1 == arg1 && p2 != arg2)	//when arg2 has parent node
 			MST_parent_info[arg1] = arg2;
 	}
 	int find_set(int arg)
@@ -152,7 +152,7 @@ public:
 	
 	void LCommonA(int arg1,int arg2)
 	{
-		//cout<<"LCA 진입 arg1 " << arg1 << " arg2 " << arg2 << endl;
+		
 		int d1 = find_depth(arg1);
 		int d2 = find_depth(arg2);
 		int child,parent;
