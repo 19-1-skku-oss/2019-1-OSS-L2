@@ -2,7 +2,7 @@
 ## Team name : L2 <br>
 **1. Team member**
    - [신경덕](https://github.com/sinkyoungdeok) 소프트웨어학과 3학년 (Team leader)
-   - [성봉진](https://github.com/HongGildong98) 글로벌경영학과 3학년 
+   - [성봉진](https://github.com/HongGildong98) 글로벌경제학과 3학년 
    - [이지원](https://github.com/ljw322/MyPage) 소프트웨어학과 3학년
    - [조혜원](https://github.com/sala0320) 소프트웨어학과 3학년
    - [정재홍](https://github.com/0322-hong) 수학과 4학년
