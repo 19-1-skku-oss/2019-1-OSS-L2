@@ -1,4 +1,4 @@
-/* atan2 func */
+/* acot2 func */
 
 #include <iostream>
 
