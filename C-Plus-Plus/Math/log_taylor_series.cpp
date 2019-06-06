@@ -1,3 +1,4 @@
+/* log taylor series func */
 #include <iostream>
 
 using namespace std;
