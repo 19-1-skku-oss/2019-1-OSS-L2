@@ -1,39 +1,33 @@
 ---
-category: Stuff
+category: 일정
 path: '/stuff/:id'
-title: 'Update a thing'
-type: 'PUT'
+title: '팀 일정'
 
 layout: nil
 ---
 
-This method allows the user to retrieve his stuff.
+## 프로젝트 일정
 
-### Request
+### 5월
+* 5월 첫째 주
+  > L2 팀 결성
 
-* **`:id`** is the id the thing to update.
-* The headers must include a **valid authentication token**.
-* **The body can't be empty** and must include at least the name attribute, a `string` that will be used as the name of the thing.
+* 5월 둘째 주
+  > 여러 프로젝트 주제 후보
 
-```Authentication: bearer f862f658-ad89-4fcb-995b-7a4c50554ff6```
-```{
-    name: 'My new thing'
-}```
+* 5월 셋째 주
+  > C-PlusPlus 주제 선정
 
-### Response
+* 5월 넷째 주
+  > 선정 프로젝트 클론<br>
+  > 필요 알고리즘/자료구조/함수들 파악<br>
+  > add/commit/push/merge 작업 등 확인<br>
+  > 개인 별 필요 함수 구현<br>
 
-Sends back a collection of things.
-
-```Status: 200 OK```
-```{
-    {
-        id: thing_1,
-        name: 'My first thing'
-    },
-    {
-        id: thing_2,
-        name: 'My second thing'
-    }
-}```
-
-For errors responses, see the [response status codes documentation](#response-status-codes).
+* 5월 다섯째 주
+  > 팀 정적페이지 생성<br>
+  > math need list 이슈추가<br>
+  > time.h list 이슈추가<br>
+  > Data Structure need list 이슈추가<br>
+  > 개인 별 필요 함수 구현<br>
+<br>
