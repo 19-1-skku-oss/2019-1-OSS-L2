@@ -51,15 +51,15 @@ public:
 			
 			int h1 = height_info[root1];
 			int h2 = height_info[root2];
-			if (h1 > h2)		//arg2를 1에 합성
+			if (h1 > h2)		//merge arg2 to 1
 			{
 				parent_info[root2] = root1;
 			}
-			else if (h1 < h2)	//arg1을 2에 합성
+			else if (h1 < h2)	//merge arg1 to 2
 			{
 				parent_info[root1] = root2;
 			}
-			else				//arg2를 1에 합성하고 h++
+			else				//merge arg2 to 1 and height++
 			{
 				parent_info[root2] = root1;
 				height_info[root1] += 1;
