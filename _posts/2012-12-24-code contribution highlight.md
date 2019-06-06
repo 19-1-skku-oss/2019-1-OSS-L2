@@ -84,49 +84,52 @@ fibo_basic : add int fibo(int N) <br>
 <br><br><br><br>
 
 sala0320 <br>
-update readme : add <br><br>
-sorting : add<br><br>
-randomized_quicksort : add <br>
-
+update readme : add  "!Algo(C:\Users\Administrator\Desktop\algo.png)" <br><br>
+sorting<br><br>
+randomized_quicksort : add -int medianOfThree(int *d, int low, int high) -void quicksort(int* d, int fir, int last) <br>
+<br><br><br><br>
 honggildong98 <br>
-math : add<br>
-acos : add<br>
-asin : add<br>
-atan : add<br>
+math <br><br>
+acos : add double acos(double input)<br>
+asin : add double asin(double input)<br>
+atan : add double atan(double input)<br>
+atan2 : add  double atan2(double input)
+cos : add  double cos(double input)<br>
+
 <br><br><br>
 6/1
 ---
 sinkyoungdeok <br>
 math<br><br>
-sin  : add <br><br>
-<br>
+sin  : add double sin(double x) <br>
+<br><br>
 datastructure<br><br>
-RB tree: add <br>
+RB tree: add class RBtree insert,del etc... <br>
 
 6/2
 ---
 sinkyoungdeok <br>
-update page : add <br>
+update page : add 2. What is our Team Project <br>
 
 6/3
 ---
 sinkyoungdeok <br>
-update page :add <br>
+update page :del ### Success <br>
 
 6/4
 ---
 ljw322 <br>
 data structure<br><br>
-dequeue :add <br>
+dequeue :add class Deque pop_back/front, push_back/front etc...  <br>
 <br><br>
 math<br><br> 
-log10 : add <br>
+log10 : add double log10(double x) <br>
 
 6/5
 ---
 sala0320 <br>
 search<br><br>
-jumpsearch <br>
+jumpsearch int jumpSearch(int arr[], int x, int n)  <br>
 <br><br>
 greedy algorithm<br><br> 
-huffmancoding : add <br>
+huffmancoding : add -struct MinHeapNode -void HuffmanCodes(char data[], int freq[], int size)  <br>
