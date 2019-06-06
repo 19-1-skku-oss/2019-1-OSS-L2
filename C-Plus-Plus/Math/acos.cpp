@@ -14,7 +14,7 @@ double acos(double x)
 		val = 0;
 	}
 	else {
-		printf("value is out of range!!!\n");
+		cout<<"value is out of range!!!<<endl;
 		val = 0;
 	}
 
@@ -27,4 +27,5 @@ int main(int argc,char**argv)
 	param = 0.5;
 	result = acos(param);
 	cout<< "acos of "<<param<<" is "<<result<<endl;
+	return 0;
 }

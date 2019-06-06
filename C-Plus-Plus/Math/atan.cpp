@@ -25,5 +25,6 @@ int main(int argc,char**argv)
 	double param,result;
 	param = 0.5;
 	result = atan(param);
-	cout<< "atan of "<<param<<" is "<<result<<endl;
+	cout<< "atan of "<<param<<" is "<<result<<endl;	
+	return 0;
 }
