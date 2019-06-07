@@ -9,7 +9,7 @@ layout: nil
 
 5/28
 ---
-* sinkyoungdeok  <br><br>
+* sinkyoungdeok  <br>
   + sort <br>
   > quick sort_plus_insertion sort : add void InsertionSort(int *A, int n) in quick_sort<br>
   > quick sort_pivot_is_median : add int medianOfThree(int *d, int low, int high)<br><br>
@@ -29,7 +29,7 @@ layout: nil
   > atoi : add int atoi(char *input)<br>
   > atol : long atoi(char *input)<br><br><br>
 
-* honggildong98 <br><br>
+* honggildong98 <br>
   + Backtracking<br>
   > knight_travel : add -class Knight -void move(pair<int, int> point) -void find_route(void) etc...<br><br><br><br>
 
@@ -81,42 +81,38 @@ layout: nil
   > asin : add double asin(double input)<br>
   > atan : add double atan(double input)<br>
   > atan2 : add  double atan2(double input)
-  > cos : add  double cos(double input)<br>
-
-<br><br><br>
+  > cos : add  double cos(double input)<br><br><br>
+  
 6/1
 ---
-sinkyoungdeok <br>
-math<br><br>
-sin  : add double sin(double x) <br>
-<br><br>
-datastructure<br><br>
-RB tree: add class RBtree insert,del etc... <br>
+* sinkyoungdeok <br>
+  + math<br>
+  > sin  : add double sin(double x) <br><br>
+  + datastructure<br>
+  > RB tree: add class RBtree insert,del etc... <br>
 
 6/2
 ---
-sinkyoungdeok <br>
-update page : add 2. What is our Team Project <br>
+* sinkyoungdeok <br>
+  + update page : add 2. What is our Team Project <br>
 
 6/3
 ---
-sinkyoungdeok <br>
-update page :del ### Success <br>
+* sinkyoungdeok <br>
+  + update page :del ### Success <br>
 
 6/4
 ---
-ljw322 <br>
-data structure<br><br>
-dequeue :add class Deque pop_back/front, push_back/front etc...  <br>
-<br><br>
-math<br><br> 
-log10 : add double log10(double x) <br>
+* ljw322 <br>
+  + data structure<br>
+  > dequeue :add class Deque pop_back/front, push_back/front etc...  <br><br>
+  + math<br>
+  > log10 : add double log10(double x) <br><br><br>
 
 6/5
 ---
-sala0320 <br>
-search<br><br>
-jumpsearch int jumpSearch(int arr[], int x, int n)  <br>
-<br><br>
-greedy algorithm<br><br> 
-huffmancoding : add -struct MinHeapNode -void HuffmanCodes(char data[], int freq[], int size)  <br>
+* sala0320 <br>
+  + search<br>
+  > jumpsearch int jumpSearch(int arr[], int x, int n)  <br><br>
+  + greedy algorithm<br> 
+  > huffmancoding : add -struct MinHeapNode -void HuffmanCodes(char data[], int freq[], int size)  <br>
