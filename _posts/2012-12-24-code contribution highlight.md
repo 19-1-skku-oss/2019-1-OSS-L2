@@ -10,11 +10,13 @@ layout: nil
 5/28
 ---
 * sinkyoungdeok  <br><br>
-> sort <br>
+  > sort <br>
+  
 quick sort_plus_insertion sort : add void InsertionSort(int *A, int n) in quick_sort<br>
 quick sort_pivot_is_median : add int medianOfThree(int *d, int low, int high)
 <br><br>
-> Graph <br>
+  > Graph <br>
+  
 Floyd : add void Floyd(int **dist,int n) <br>
 sollin : add void prims(int *a, int b[][7], int i, int j)<br>
 BFS : add -class graph -void bfs(int s)
