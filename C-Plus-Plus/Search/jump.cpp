@@ -1,52 +1,40 @@
-#include <bits/stdc++.h> 
-using namespace std; 
-  
-int jumpSearch(int arr[], int x, int n) 
-{ 
-    // Finding block size to be jumped 
-    int step = sqrt(n); 
-  
-    // Finding the block where element is 
-    // present (if it is present) 
-    int prev = 0; 
-    while (arr[min(step, n)-1] < x) 
-    { 
-        prev = step; 
-        step += sqrt(n); 
-        if (prev >= n) 
-            return -1; 
-    } 
-  
-    // Doing a linear search for x in block 
-    // beginning with prev. 
-    while (arr[prev] < x) 
-    { 
-        prev++; 
-  
-        // If we reached next block or end of 
-        // array, element is not present. 
-        if (prev == min(step, n)) 
-            return -1; 
-    } 
-    // If element is found 
-    if (arr[prev] == x) 
-        return prev; 
-  
-    return -1; 
-} 
-  
-// Driver program to test function 
-int main() 
-{ 
-    int arr[] = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 
-                34, 55, 89, 144, 233, 377, 610 }; 
-    int x = 55; 
-    int n = sizeof(arr) / sizeof(arr[0]); 
-      
-    // Find the index of 'x' using Jump Search 
-    int index = jumpSearch(arr, x, n); 
-  
-    // Print the index where 'x' is located 
-    cout << "\nNumber " << x << " is at index " << index; 
-    return 0; 
-} 
+#include<iostream>
+#include<cmath>
+
+using namespace std;
+int jumpSearch(int array[], int size, int key) {
+   int start = 0;
+   int end = sqrt(size); //the square root of array length
+
+   while(array[end] <= key && end < size) {
+      start = end; //it it is not correct block then shift block
+      end += sqrt(size);
+      if(end > size - 1)
+         end = size; //if right exceeds then bound the range
+   }
+
+   for(int i = start; i<end; i++) { //perform linear search in selected block
+      if(array[i] == key)
+         return i; //the correct position of the key
+   }
+   return -1;
+}
+
+int main() {
+   int n, searchKey, loc;
+   cout << "Enter number of items: ";
+   cin >> n;
+   int arr[n]; //create an array of size n
+   cout << "Enter items: " << endl;
+
+   for(int i = 0; i< n; i++) {
+      cin >> arr[i];
+   }
+
+   cout << "Enter search key to search in the list: ";
+   cin >> searchKey;
+   if((loc = jumpSearch(arr, n, searchKey)) >= 0)
+      cout << "Item found at location: " << loc << endl;
+   else
+      cout << "Item is not found in the list." << endl;
+}
