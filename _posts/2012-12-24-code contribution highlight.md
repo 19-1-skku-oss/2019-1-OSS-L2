@@ -51,18 +51,26 @@ layout: nil
 * sinkyoungdeok <br>
   + cstdlib<br>
   > labs : add long int labs(long int input) <br>
-  > atof : add float StringToFloat(char* s)  <br><br>
+  > atof : add float StringToFloat(char* s)  <br>
+  <br>
+  
   + Graph<br>
-  > astar : add -bool astar(state start, state goal) -void neighbors(state current,state goal, vector<state> &openset,vector<state> closedset) etc... <br><br>
+  > astar : add -bool astar(state start, state goal) -void neighbors(state current,state goal, vector<state> &openset,vector<state> closedset) etc... <br>
+  <br>
+  
   + Data Structure<br>
-  > btree : add typedef struct BTreeNode etc...  <br><br><br>
-
+  > btree : add typedef struct BTreeNode etc...  <br>
+  
+  <br><br>
+  
 5/30
 ---
 * sinkyoungdeok <br>
   + Hashing<br>
-  > sha1 : add -class SHA1 -static void transform(uint32_t digest[], uint32_t block[BLOCK_INTS], uint64_t &transforms) etc...
-  > md5 : add -class md5 - void bytes_to_m_array(InputIterator & first, std::array<std::uint32_t, 16>::iterator m_array_last) etc..<br><br><br>
+  > sha1 : add -class SHA1 -static void transform(uint32_t digest[], uint32_t block[BLOCK_INTS], uint64_t &transforms) etc...<br>
+  > md5 : add -class md5 - void bytes_to_m_array(InputIterator & first, std::array<std::uint32_t, 16>::iterator m_array_last) etc..<br>
+  
+  <br><br>
 
 5/31
 ---
