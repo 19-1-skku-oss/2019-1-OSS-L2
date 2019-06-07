@@ -124,7 +124,7 @@ public:
 			return 0;
 	}
 
-	int promise2(pair<int, int> check)		//지나온 점을 다시 지나지 않게 하기위함
+	int promise2(pair<int, int> check)		
 	{
 		if (chess[check.first][check.second] == 0)
 			return 1;
