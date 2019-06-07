@@ -38,11 +38,13 @@ layout: nil
   > abs : add int abs(int input)<br>
   > atoi : add int atoi(char *input)<br>
   > atol : long atoi(char *input)<br>
-  <br><br>
   
+  <br><br>
 * honggildong98 <br>
   + Backtracking<br>
-  > knight_travel : add -class Knight -void move(pair<int, int> point) -void find_route(void) etc...<br><br><br><br>
+  > knight_travel : add -class Knight -void move(pair<int, int> point) -void find_route(void) etc...<br>
+  
+  <br><br><br>
 
 5/29
 ---
