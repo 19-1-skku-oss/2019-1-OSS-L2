@@ -35,7 +35,7 @@ atoi : add int atoi(char *input)<br>
 atol : long atoi(char *input)
 <br><br><br>
 
-* honggildong98 <br>
+* honggildong98 <br><br>
 Backtracking<br>
 knight_travel : add -class Knight -void move(pair<int, int> point) -void find_route(void) etc...<br>
 <br><br><br>
