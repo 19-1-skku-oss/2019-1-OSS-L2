@@ -1,3 +1,4 @@
+// 그래프의 꼭지점들에, 같은 색이 인접하지 않도록 색을 부여하는 방법
 #include<stdio.h>
  
 // Number of vertices in the graph
