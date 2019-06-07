@@ -81,20 +81,28 @@ layout: nil
   > any_of : add  bool any_of(InputIterator first, InputIterator last, UnaryPredicate pred) <br>
   >none_of : add bool none_of(InputIterator first, InputIterator last, UnaryPredicate pred) <br>
   > for _each : add constexpr UnaryFunction for_each(InputIt first, InputIt last, UnaryFunction f) <br>
-  >find_ if_not : add InputIterator find_if_not(InputIterator first, InputIterator last <br><br>
+  >find_ if_not : add InputIterator find_if_not(InputIterator first, InputIterator last <br>
+  <br>
+  
   +cstring<br>
   > strcat : add char *strcat(char *dst, const char *src)  <br>
-  > strspn : add size_t strspn(char *string,char *control) <br><br><br>
+  > strspn : add size_t strspn(char *string,char *control) <br>
+  
+  <br><br>
 
 * ljw322 <br>
   + Others<br>
-  > Tomato_queue : add -struct Position -implemented by using iteration of queue -check the tomato if it ripe
-  > fibo_basic : add int fibo(int N) <br><br><br>
+  > Tomato_queue : add -struct Position -implemented by using iteration of queue -check the tomato if it ripe<br>
+  > fibo_basic : add int fibo(int N) <br>
+  
+  <br><br>
 
 * sala0320 <br>
   + update readme : add  "!Algo(C:\Users\Administrator\Desktop\algo.png)" <br><br>
   + sorting<br>
-  > randomized_quicksort : add -int medianOfThree(int *d, int low, int high) -void quicksort(int* d, int fir, int last) <br><br><br>
+  > randomized_quicksort : add -int medianOfThree(int *d, int low, int high) -void quicksort(int* d, int fir, int last) <br>
+  
+  <br><br>
 
 * honggildong98 <br>
   + math <br>
@@ -102,38 +110,53 @@ layout: nil
   > asin : add double asin(double input)<br>
   > atan : add double atan(double input)<br>
   > atan2 : add  double atan2(double input)
-  > cos : add  double cos(double input)<br><br><br>
+  > cos : add  double cos(double input)<br>
+  
+  <br><br>
   
 6/1
 ---
 * sinkyoungdeok <br>
   + math<br>
-  > sin  : add double sin(double x) <br><br>
+  > sin  : add double sin(double x) <br>
+  <br>
   + datastructure<br>
-  > RB tree: add class RBtree insert,del etc... <br>
+  > RB tree: add class RBtree insert,del etc... 
+  
+  <br><br>
 
 6/2
 ---
 * sinkyoungdeok <br>
   + update page : add 2. What is our Team Project <br>
+  
+  <br><br>
 
 6/3
 ---
 * sinkyoungdeok <br>
   + update page :del ### Success <br>
+  
+  <br><br>
 
 6/4
 ---
 * ljw322 <br>
   + data structure<br>
-  > dequeue :add class Deque pop_back/front, push_back/front etc...  <br><br>
+  > dequeue :add class Deque pop_back/front, push_back/front etc...  <br>
+  <br>
+  
   + math<br>
-  > log10 : add double log10(double x) <br><br><br>
+  > log10 : add double log10(double x) <br>
+  
+  <br><br>
 
 6/5
 ---
 * sala0320 <br>
   + search<br>
-  > jumpsearch int jumpSearch(int arr[], int x, int n)  <br><br>
+  > jumpsearch int jumpSearch(int arr[], int x, int n)  <br>
+  <br>
+  
   + greedy algorithm<br> 
   > huffmancoding : add -struct MinHeapNode -void HuffmanCodes(char data[], int freq[], int size)  <br>
