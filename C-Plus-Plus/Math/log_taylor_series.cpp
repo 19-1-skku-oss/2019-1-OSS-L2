@@ -3,7 +3,8 @@
 
 using namespace std;
 #define PI 3.141592653589793238462643383279502884197169
-
+double log(double x);
+double pow(double x,double y);
 double log(double x)
 {
 	double val;
@@ -17,7 +18,7 @@ double log(double x)
 	return val;
 }
 double pow(double x,double y){
-	if(y==0){return x}
+	if(y==0){return x;}
 	else{return x*pow(x,y-1);}
 }
 
