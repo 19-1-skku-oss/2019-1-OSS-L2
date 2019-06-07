@@ -1,4 +1,4 @@
-//모든 꼭지점을 한번씩 지나가는 경로
+
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
