@@ -31,20 +31,18 @@ layout: nil
 
 * honggildong98 <br><br>
   + Backtracking<br>
-  > knight_travel : add -class Knight -void move(pair<int, int> point) -void find_route(void) etc...<br>
-<br><br><br>
+  > knight_travel : add -class Knight -void move(pair<int, int> point) -void find_route(void) etc...<br><br><br><br>
+
 5/29
 ---
-sinkyoungdeok <br>
-cstdlib<br><br>
-labs : add long int labs(long int input) <br>
-atof : add float StringToFloat(char* s)  <br>
-<br><br>
-Graph<br><br>
-astar : add -bool astar(state start, state goal) -void neighbors(state current,state goal, vector<state> &openset,vector<state> closedset) etc... <br>
-<br><br>
-Data Structure<br><br>
-btree : add typedef struct BTreeNode etc...  <br>
+* sinkyoungdeok <br>
+  + cstdlib<br>
+  > labs : add long int labs(long int input) <br>
+  > atof : add float StringToFloat(char* s)  <br><br>
+  + Graph<br><br>
+  > astar : add -bool astar(state start, state goal) -void neighbors(state current,state goal, vector<state> &openset,vector<state> closedset) etc... <br><br>
+  + Data Structure<br>
+  > btree : add typedef struct BTreeNode etc...  <br><br><br>
 
 5/30
 ---
