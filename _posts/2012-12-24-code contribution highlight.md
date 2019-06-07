@@ -12,32 +12,32 @@ layout: nil
 * sinkyoungdeok  <br><br>
   + sort <br>
   > quick sort_plus_insertion sort : add void InsertionSort(int *A, int n) in quick_sort<br>
-  > quick sort_pivot_is_median : add int medianOfThree(int *d, int low, int high)
+  > quick sort_pivot_is_median : add int medianOfThree(int *d, int low, int high)<br>
+<br>
+  + Graph <br>
+  > Floyd : add void Floyd(int **dist,int n) <br>
+  > sollin : add void prims(int *a, int b[][7], int i, int j)<br>
+  > BFS : add -class graph -void bfs(int s)<br>
+<br>
+  + Algorithm <br>
+  > max, min : add int min(int input1, int input2) int max(int input1, int input2)<br>
+  > swap : add void swap(int *x, int *y)<br>
+<br>
+  + math<br>
+  > ceil : double ceil(double input)  <br>
+<br>
+  + Cstring<br>
+  > strcpy : add char *strcpy(char *dest, char *source) <br>
+<br>
+  + cstdlib -<br>
+  > abs : add int abs(int input)<br>
+  > atoi : add int atoi(char *input)<br>
+  > atol : long atoi(char *input)<br>
 <br><br>
-  > Graph <br>
-  Floyd : add void Floyd(int **dist,int n) <br>
-  sollin : add void prims(int *a, int b[][7], int i, int j)<br>
-  BFS : add -class graph -void bfs(int s)
-<br><br>
-> Algorithm <br>
-max, min : add int min(int input1, int input2) int max(int input1, int input2)<br>
-swap : add void swap(int *x, int *y)
-<br><br>
-> math<br>
-ceil : double ceil(double input)  
-<br><br>
-> Cstring<br>
-strcpy : add char *strcpy(char *dest, char *source) 
-<br><br>
-> cstdlib -<br>
-abs : add int abs(int input)<br>
-atoi : add int atoi(char *input)<br>
-atol : long atoi(char *input)
-<br><br><br>
 
 * honggildong98 <br><br>
-> Backtracking<br>
-knight_travel : add -class Knight -void move(pair<int, int> point) -void find_route(void) etc...<br>
+  + Backtracking<br>
+  > knight_travel : add -class Knight -void move(pair<int, int> point) -void find_route(void) etc...<br>
 <br><br><br>
 5/29
 ---
