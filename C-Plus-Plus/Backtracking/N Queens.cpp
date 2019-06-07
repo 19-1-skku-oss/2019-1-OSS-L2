@@ -1,3 +1,4 @@
+//N-Queen 퍼즐은 N x N 크기의 체스판에 N 개의 퀸을, 서로 공격할 수 없도록 올려놓는 퍼즐
 #include<iostream>
 #define N 4
 using namespace std;
