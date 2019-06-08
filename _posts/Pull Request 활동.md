@@ -6,24 +6,24 @@ type: 'GET'
 layout: nil
 ---
 # 1. 응답을 기다리는 pull request list
-- Data Structure(sinkyoungdeok, ljw322)
-    > RBTree (sinkyoungdeok)
-    > BTree (sinkyoungdeok)
-    > Dequeue (ljw322)
-    > Digraph (sinkyoungdeok)
-    > Graph (sinkyoungdeok)
-    > Circular_linked_list (sinkyoungdeok)
-    > BinaryTree (ljw322)
+- Data Structure(sinkyoungdeok, ljw322) <Br>
+    > RBTree (sinkyoungdeok) <br>
+    > BTree (sinkyoungdeok) <br>
+    > Dequeue (ljw322) <br>
+    > Digraph (sinkyoungdeok) <Br>
+    > Graph (sinkyoungdeok) <Br>
+    > Circular_linked_list (sinkyoungdeok) <Br>
+    > BinaryTree (ljw322) <Br>
 
-- Algorithm (sinkyoungdeok)
-    > all_of
-    > any_of
-    > fill
-    > find_if_not
-    > for_each
-    > max
-    > min
-    > none_of
-    > swap
+- Algorithm (sinkyoungdeok) <br>
+    > all_of <Br>
+    > any_of <br>
+    > fill <br>
+    > find_if_not <Br>
+    > for_each <br>
+    > max <Br>
+    > min <br>
+    > none_of <br>
+    > swap <Br>
 
 # 2. 받아준 pull request list
