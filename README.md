@@ -1,7 +1,11 @@
 # Introduce our team
 
 ## 프로젝트 소개
-<center><img width="200" height="200" alt="캡처" src="https://user-images.githubusercontent.com/28394879/58865743-11c76a80-86f2-11e9-9e6b-c7ef2c03bf56.PNG"></center>
+
+<center>
+<img width="200" height="200" alt="캡처" src="https://user-images.githubusercontent.com/28394879/58865743-11c76a80-86f2-11e9-9e6b-c7ef2c03bf56.PNG">
+</center>
+
 <br>
 
 Github 및 다른 오픈소프트웨어 사이트들을 통해 수많은 오픈소프트웨어들을 접했지만, 
