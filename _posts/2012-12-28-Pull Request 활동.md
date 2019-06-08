@@ -6,6 +6,9 @@ title: 'Pull Request 활동'
 layout: nil
 ---
 # 1. 응답을 기다리는 pull request list
+
+<img width="410" alt="1" src="https://user-images.githubusercontent.com/30587502/59147548-15cbf300-8a38-11e9-8072-4f24d809f6df.png">
+
 * math.h (ljw322) <Br>
     - acos <Br>
     - asin <br>
