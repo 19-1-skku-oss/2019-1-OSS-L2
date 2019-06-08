@@ -62,22 +62,22 @@ layout: nil
     - atoi <br>
     - atol <br>
     - labs <br>
-+ Cstring (sinkyoungdeok) <br>
-    > strcat <br>
-    > strcmp <br>
-    > strcpy <br>
-    > strlen <br>
-    > strspn <br>
-+ sorting (sinkyoungdeok) <br>
-    > Merge-insertion sort<br>
-    > QuickSort_Median_pivot <br>
-    > Quick_plus_insertion <br>
-    > randomized_quicksort <br>
-+ Graph (ljw322) <br>
-    > Astar (ljw322) <br>
-    > BFSwithqueue (ljw322) <br>
-    > Floyd (ljw322) <Br>
-    > sollin (ljw322) <Br>
+* Cstring (sinkyoungdeok) <br>
+    - strcat <br>
+    - strcmp <br>
+    - strcpy <br>
+    - strlen <br>
+    - strspn <br>
+* sorting (sinkyoungdeok) <br>
+    - Merge-insertion sort<br>
+    - QuickSort_Median_pivot <br>
+    - Quick_plus_insertion <br>
+    - randomized_quicksort <br>
+* Graph (ljw322) <br>
+    - Astar (ljw322) <br>
+    - BFSwithqueue (ljw322) <br>
+    - Floyd (ljw322) <Br>
+    - sollin (ljw322) <Br>
     
     
     
