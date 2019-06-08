@@ -9,7 +9,7 @@ layout: nil
 
 <img width="310" alt="1" src="https://user-images.githubusercontent.com/30587502/59147548-15cbf300-8a38-11e9-8072-4f24d809f6df.png">
 
-<img width="298" alt="2" src="https://user-images.githubusercontent.com/30587502/59147550-1b293d80-8a38-11e9-8e37-195928cddf64.png">
+<img width="310" alt="2" src="https://user-images.githubusercontent.com/30587502/59147604-c803ba80-8a38-11e9-807b-6141ad9e4e91.png">
 
 <img width="302" alt="3" src="https://user-images.githubusercontent.com/30587502/59147553-1e242e00-8a38-11e9-866e-9505d1926758.png">
 
