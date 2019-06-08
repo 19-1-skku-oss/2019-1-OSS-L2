@@ -74,10 +74,10 @@ layout: nil
     > Quick_plus_insertion <br>
     > randomized_quicksort <br>
 - Graph (ljw322) <br>
-    > Astar (ljw322)
-    > BFSwithqueue (ljw322)
-    > Floyd (ljw322)
-    > sollin (ljw322)
+    > Astar (ljw322) <br>
+    > BFSwithqueue (ljw322) <br>
+    > Floyd (ljw322) <Br>
+    > sollin (ljw322) <Br>
     
     
     
