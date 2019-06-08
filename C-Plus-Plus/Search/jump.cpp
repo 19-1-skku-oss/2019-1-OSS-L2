@@ -1,6 +1,8 @@
+//Jump Search is a searching algorithm for sorted arrays. 
+//The basic idea is to check fewer elements (than linear search) 
+//by jumping ahead by fixed steps or skipping some elements in place of searching all elements.
 #include<iostream>
 #include<cmath>
-
 using namespace std;
 int jumpSearch(int array[], int size, int key) {
    int start = 0;
@@ -19,7 +21,6 @@ int jumpSearch(int array[], int size, int key) {
    }
    return -1;
 }
-
 int main() {
    int n, searchKey, loc;
    cout << "Enter number of items: ";
