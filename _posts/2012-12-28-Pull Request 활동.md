@@ -1,6 +1,6 @@
 ---
 category: 활동
-path: '/'
+path: '/활동'
 title: 'Pull Request 활동'
 
 layout: nil
