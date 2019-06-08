@@ -91,4 +91,5 @@ layout: nil
     
 
 # 2. 받아준 pull request list
-
+- 없음
+ 
