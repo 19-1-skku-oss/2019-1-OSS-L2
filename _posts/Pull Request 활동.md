@@ -1,8 +1,8 @@
 ---
 category: 일정
-path: '/'
+path: '/일정'
 title: 'Pull Request 활동'
-type: 'GET'
+
 layout: nil
 ---
 # 1. 응답을 기다리는 pull request list
