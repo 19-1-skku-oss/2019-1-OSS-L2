@@ -7,15 +7,15 @@ layout: nil
 ---
 # 1. 응답을 기다리는 pull request list
 
-<img width="210" alt="1" src="https://user-images.githubusercontent.com/30587502/59147548-15cbf300-8a38-11e9-8072-4f24d809f6df.png">
+<img width="310" alt="1" src="https://user-images.githubusercontent.com/30587502/59147548-15cbf300-8a38-11e9-8072-4f24d809f6df.png">
 
-<img width="198" alt="2" src="https://user-images.githubusercontent.com/30587502/59147550-1b293d80-8a38-11e9-8e37-195928cddf64.png">
+<img width="298" alt="2" src="https://user-images.githubusercontent.com/30587502/59147550-1b293d80-8a38-11e9-8e37-195928cddf64.png">
 
-<img width="202" alt="3" src="https://user-images.githubusercontent.com/30587502/59147553-1e242e00-8a38-11e9-866e-9505d1926758.png">
+<img width="302" alt="3" src="https://user-images.githubusercontent.com/30587502/59147553-1e242e00-8a38-11e9-866e-9505d1926758.png">
 
-<img width="196" alt="4" src="https://user-images.githubusercontent.com/30587502/59147555-22504b80-8a38-11e9-929b-7359d590405e.png">
+<img width="296" alt="4" src="https://user-images.githubusercontent.com/30587502/59147555-22504b80-8a38-11e9-929b-7359d590405e.png">
 
-<img width="199" alt="5" src="https://user-images.githubusercontent.com/30587502/59147560-267c6900-8a38-11e9-9372-9c05f4cac1cf.png">
+<img width="299" alt="5" src="https://user-images.githubusercontent.com/30587502/59147560-267c6900-8a38-11e9-9372-9c05f4cac1cf.png">
 
 * math.h (ljw322) <Br>
     - acos <Br>
