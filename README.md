@@ -1,5 +1,12 @@
 # Introduce our team
-
+## Team name : L2 <br>
+   - [신경덕](https://github.com/sinkyoungdeok) 소프트웨어학과 3학년 **(Team leader)**
+   - [성봉진](https://github.com/HongGildong98) 글로벌경제학과 3학년
+   - [이지원](https://github.com/ljw322/MyPage) 소프트웨어학과 3학년
+   - [조혜원](https://github.com/sala0320) 소프트웨어학과 3학년
+   - [정재홍](https://github.com/0322-hong) 수학과 4학년<br><br>
+   
+   
 ## 프로젝트 소개
 
 <center>
@@ -41,13 +48,6 @@ Github 및 다른 오픈소프트웨어 사이트들을 통해 수많은 오픈�
 - 구현되어 있지 않은 코드 추가
 - 구현되어 있는 코드 더 효율적으로 수정
 <br>
-
-## 팀원
-   - [신경덕](https://github.com/sinkyoungdeok) 소프트웨어학과 3학년 **(Team leader)**
-   - [성봉진](https://github.com/HongGildong98) 글로벌경제학과 3학년
-   - [이지원](https://github.com/ljw322/MyPage) 소프트웨어학과 3학년
-   - [조혜원](https://github.com/sala0320) 소프트웨어학과 3학년
-   - [정재홍](https://github.com/0322-hong) 수학과 4학년<br>
 
 ## 선정 프로젝트 페이지
 https://github.com/TheAlgorithms/C-Plus-Plus
